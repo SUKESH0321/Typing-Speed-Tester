@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000000;  /* Black */
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: #4B4B4B;  /* Grey */
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 700px;
+    max-width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: white;
+}
+
+/* NEON GREEN STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #39FF14;  /* Neon Green */
+    font-weight: bold;
+}
+
+.disptxt {
+    background-color: black;  
+    color: white;  /* Shown text in White */
+    padding: 1rem;
+    border-radius: 5px;
+    min-height: 50px;
+}
+
+.InTxt {
+    width: 100%;
+    height: 5rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border: 2px solid white;  
+    border-radius: 5px;
+    padding: 0.5rem;
+    outline: none;
+    resize: none;
+    background-color: #000000;  /* Black */
+    color: white;  /* Typed text in White */
+}
+
+.InTxt:focus {
+    border-color: white;
+}
+
+/* Correct and incorrect styling */
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
+
+/* NEON GREEN BUTTON */
+button {
+    background-color: #39FF14;  /* Neon Green */
+    color: black;  /* Black Text */
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #39FF14;  
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #32CC11;
+    border-color: #32CC11;
+}
