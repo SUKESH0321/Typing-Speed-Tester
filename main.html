@@ -11,10 +11,16 @@
     <div class="container">
         <h1>Typing Speed Test</h1>
         <div class="stats">
-            <p>Time: <span id="timer">0</span> sec</p>
+            <p>Time Left: <span id="time-left">30</span> sec</p>
             <p>Accuracy: <span id="accuracy">100</span>%</p>
             <p>WPS: <span id="wps">0</span></p>
         </div>
+        <label for="time-selector" style="color: #39FF14; font-weight: bold;">Select Duration:</label>
+        <select id="time-selector">
+          <option value="30" selected>30 seconds</option>
+          <option value="60">60 seconds</option>
+          <option value="90">90 seconds</option>
+        </select><br><br>
         <button id="start-btn">Start Test</button>
         <div class="disptxt" id="DispTxt">Press "Start Test" to begin!</div>
         <textarea class="InTxt" id="Intxt" cols="50" rows="5" disabled></textarea>
