@@ -73,6 +73,38 @@ h1 {
     text-decoration: underline;
 }
 
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+    #stop-btn {
+        background-color: #FF0000;
+        color: white;
+    }
+
+    #stop-btn:hover {
+        background-color: #660202;
+    }
+
+.selector-group {
+    margin-bottom: 1rem;
+    color: #39FF14; /* Neon Green text */
+    font-weight: bold;
+  }
+  
+  #time-select {
+    background-color: black;
+    color: #39FF14;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+
 /* NEON GREEN BUTTON */
 button {
     background-color: #39FF14;  /* Neon Green */
@@ -91,3 +123,4 @@ button:hover {
     background-color: #32CC11;
     border-color: #32CC11;
 }
+
